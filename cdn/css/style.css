@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Francois One', sans-serif;
+}
+
+:root {
+    --main: #5968f3;
+    --darktheme: #313338;
+    --text: #FFFFFF;
+    --blacktext: #000000;
+    --lighttheme: #f2f3f5;
+    --discordred: #da373c;
+    --discordgreen: #248046;
+    --discordblue: #5865f2;
+    --discordgray: #4e5058;
+    --discordusedred: #85353a;
+    --discordusedgreen: #2b593f;
+    --discordusedblue: #444c95;
+    --discordusedgray: #3f4148;
+    --discordembeddark: #2b2d31;
+    --disabledtext: #80848e;
+    --enabledtext: #eff1f3;
+}
+
+
+.topnavbar {
+    min-height: 80px;
+    color: var(--enabledtext);
+    background-color: var(--main);
+    border-bottom: 3px solid var(--discordusedblue);
+}
+
+.topnavbar .logo img{
+    float: left;
+    margin-left: 10px;
+    width: 5%;
+}
+
+.topnavbar .links a {
+    color: var(--text);
+    padding: 10px;
+    border: 3px solid var(--text);
+    border-radius: 6px;
+    text-align: center;
+    float: right;
+    margin-right: 10px;
+    margin-top: 15px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.topnavbar .links a:hover {
+    color: var(--darktheme);
+    border: 3px solid var(--darktheme);
+}
+
+
+
+
+.hero {
+    background-image: url(/cdn/img/listcords-banner.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 700px;
+}
+
+
+
+
+
+
+@media screen and (max-width: 768px) {
+   
+    .topnavbar {
+        min-height: 80px;
+        color: var(--enabledtext);
+        background-color: var(--main);
+        border-bottom: 3px solid var(--discordusedblue);
+        font-size: 10px;
+    }
+
+    .hero {
+        background-image: url(/cdn/img/listcords-banner.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    .topnavbar .logo img{
+        float: left;
+        margin-left: 10px;
+        width: 15%;
+    }
+}

@@ -1,0 +1,72 @@
+/* Reset some default styles */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+header {
+    background-color: #7289da;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.server-info {
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.server-info img {
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+.server-invite {
+    text-align: left;
+}
+
+.join-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #7289da;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.join-button:hover {
+    background-color: #677bc4;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px 0;
+    background-color: #7289da;
+    color: #fff;
+}
+
+
+
+
+
+/* ID WORKING STUFF */
+
+#mini-1151224152020226089 {
+    text-align: left;
+}
